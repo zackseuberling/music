@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build:preflight"
+  command = "yarn build"
   functions = "api/"
 
 [[redirects]]

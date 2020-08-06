@@ -1,0 +1,10 @@
+[build]
+  command = "yarn build:preflight"
+  functions = "api/"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.airtable.com/v0/:splat"
+  status = 200
+  force = true
+  headers = {Authorization = "Bearer TOML_AIRTABLE_KEY"}

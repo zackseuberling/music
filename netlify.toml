@@ -8,3 +8,6 @@
   status = 200
   force = true
   headers = {Authorization = "Bearer TOML_AIRTABLE_KEY"}
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
